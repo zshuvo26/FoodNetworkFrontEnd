@@ -91,3 +91,48 @@ h1{
     text-align: center;
 }
 
+
+.recipie-section{
+    height: auto;
+    padding: 0 100px;
+   }
+.recipie-section-upper{
+    text-align: center;
+    color: gray;
+}
+.recipie-section-upper p{
+    margin: 2%;
+    padding-left: 17em;
+    padding-right: 17em;    
+}
+
+.recipie-section-lower{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+.recipie-item {
+	border-radius: 30px;
+	box-shadow: 0px 0px 15px 1px rgba(10, 10, 10, 0.1);
+	width: 28%;
+	padding: 15px;
+}
+.recipie-item img {
+	width: 100%;
+	border-radius: 20px;
+	height: 245px;
+}
+.recipie-item-text h4 {
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+.recipie-item-text p {
+	font-weight: 300;
+}
+.recipie-item-text{
+    padding: 2px 10px;
+}
+
